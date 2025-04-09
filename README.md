@@ -84,6 +84,74 @@ Circle 1:
 A plot with **2 randomly generated circles**, each labeled with its **center and 45-degree interval points**.
 
 ---
+
+## **Lab Work 3: Line and Circle Drawing Algorithms**
+
+### **Overview**  
+This lab focuses on implementing **classic line and circle drawing algorithms** used in computer graphics. It includes three programs demonstrating:
+
+- **DDA (Digital Differential Analyzer) Line Drawing**
+- **Bresenham’s Line Drawing Algorithm**
+- **Midpoint Circle Drawing Algorithm**
+
+All implementations use **Matplotlib** and **NumPy** for visualization.
+
+### **Features**  
+✔ Accurate rendering of **lines and circles** based on pixel-level plotting  
+✔ Clear comparison of different **line drawing techniques**  
+✔ Visualization of **key points and pixel paths**  
+✔ Well-commented code for **easy understanding**  
+
+### **Files Included**
+- `line_using_DDA.py` - Implements the **DDA line algorithm**  
+- `bresenham_line.py` - Implements **Bresenham’s line algorithm**  
+- `Circle_using_midpoint.py` - Implements **Midpoint circle algorithm**  
+
+### **Installation**  
+Make sure the required libraries are installed:  
+```bash
+pip install matplotlib numpy
+```
+
+### **Usage**  
+Run any script from the terminal:  
+```bash
+python line_using_DDA.py  
+python bresenham_line.py  
+python Circle_using_midpoint.py
+```
+
+Each script will prompt for input (like coordinates or radius) and display the result using a plotted graph.
+
+### **Example Output**  
+
+**DDA Line Output**  
+```
+Enter start point (x1, y1): 2 3  
+Enter end point (x2, y2): 10 8  
+Line drawn using DDA Algorithm  
+```
+
+**Bresenham Line Output**  
+```
+Enter start point (x1, y1): 1 1  
+Enter end point (x2, y2): 8 5  
+Line drawn using Bresenham’s Algorithm  
+```
+
+**Midpoint Circle Output**  
+```
+Enter center (x, y): 5 5  
+Enter radius: 4  
+Circle drawn using Midpoint Circle Algorithm  
+```
+
+**Graph Output:**  
+Each algorithm visualizes the respective **line or circle**, showing the plotted points/pixels clearly.
+
+---
+
+Let me know if you'd like me to add visuals, code snippets, or more advanced formatting to each section!
   
 Stay tuned for updates! 🚀  
 
